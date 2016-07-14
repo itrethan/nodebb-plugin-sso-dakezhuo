@@ -8,7 +8,7 @@
 			name: 'dakezhuo',
 			url: 'http://www.dakezhuo.com/landing/loginXunfei',
 			callbackURL: '/auth/dakezhuo/callback',
-			icon: 'fa-google-plus-square',
+			icon: 'fa-sign-in',
 		});
 
 		callback(null, strategies);
