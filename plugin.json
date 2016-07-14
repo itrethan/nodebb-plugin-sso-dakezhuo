@@ -4,8 +4,8 @@
 	"description": "NodeBB Plugin that allows users to login/register via their DAkezhuo account.",
 	"url": "https://github.com/itrethan/nodebb-plugin-sso-dakezhuo",
 	"library": "./library.js",
-	"templates": "templates",
 	"hooks": [
 		{ "hook": "filter:auth.init", "method": "getStrategy" }
-	]
+	],
+	"languages": "translations"
 }
