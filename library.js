@@ -6,7 +6,7 @@
 	Dakezhuo.getStrategy = function(strategies, callback) {
 		strategies.push({
 			name: 'dakezhuo',
-			url: 'http://www.dakezhuo.com/landing/loginXunfei?redirect=bbs',
+			url: 'http://www.dakezhuo.com/landing/loginBbsXunfei',
 			callbackURL: '/auth/dakezhuo/callback',
 			icon: 'fa-sign-in',
 		});
